@@ -1,6 +1,6 @@
 Velvet Platter is a modern, responsive restaurant website built using HTML, CSS, and JavaScript. The project showcases how to design an engaging and functional online presence for restaurants, featuring a stylish layout, dynamic menus, and smooth navigation.
 
-The site is divided into clear sections — Home, Menu, About, and Contact — making it simple for visitors to explore. The hero section features a welcoming background image, while the menu section offers multiple food categories with vegetarian and non-vegetarian options. Each dish is presented with an image, description, and price, giving customers a clear idea of what to expect before they dine.
+The site is divided into clear sections - Home, Menu, About, and Contact -making it simple for visitors to explore. The hero section features a welcoming background image, while the menu section offers multiple food categories with vegetarian and non-vegetarian options. Each dish is presented with an image, description, and price, giving customers a clear idea of what to expect before they dine.
 
 ✨ Features
 
