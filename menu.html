@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menu • Velvet Platter</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="script.js"></script>
+</head>
+<body id="menuApp">
+  <!-- NAV -->
+  <nav class="nav nav--solid">
+    <div class="nav__brand">Velvet Platter</div>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a class="active" href="menu.html">Menu</a></li>
+    </ul>
+  </nav>
+
+  <!-- MENU HEADER -->
+  <header class="menu-hero">
+    <h1>Our Menu</h1>
+    <p class="muted">Filter by preference or time of day. We’ll auto-pick what suits the hour!</p>
+  </header>
+
+  <!-- CONTROLS -->
+  <section class="controls">
+    <div class="controls__group">
+      <span class="controls__label">Preference:</span>
+      <button class="chip active" data-type="all">All</button>
+      <button class="chip" data-type="veg">Veg</button>
+      <button class="chip" data-type="nonveg">Non-Veg</button>
+    </div>
+
+    <div class="controls__group">
+      <span class="controls__label">Meal:</span>
+      <button class="tab" data-meal="breakfast">Breakfast</button>
+      <button class="tab" data-meal="lunch">Lunch</button>
+      <button class="tab" data-meal="dinner">Dinner</button>
+      <button class="tab" data-meal="dessert">Desserts</button>
+    </div>
+
+    <div class="controls__search">
+      <input id="searchInput" type="search" placeholder="Search dishes… (e.g., biryani, paneer)"/>
+    </div>
+  </section>
+
+  <!-- MENU GRID -->
+  <section class="grid" id="menuGrid">
+    <!-- Cards injected by JS -->
+  </section>
+
+  <footer class="footer">
+    © 2025 Velvet Platter • Need help? +91 12345678 & at instagram @Velvet_Platter
+  </footer>
+</body>
+</html>

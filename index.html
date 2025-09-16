@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Velvet Platter</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav__brand">Velvet Platter</div>
+    <ul class="nav__links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <h1>Welcome to Velvet Platter 🍴</h1>
+      <p>Delicious food, made with love — order your favorites anytime.</p>
+      <a class="btn btn--primary" href="menu.html">Explore Menu</a>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section section--padded">
+    <h2 class="section__title">About Us</h2>
+    <p class="section__lead">
+      At Velvet Platter, we believe dining should be an experience that blends elegance, comfort, and flavor. Our name reflects our promise — the smooth warmth of velvet hospitality and a platter full of diverse, freshly prepared dishes. From timeless classics to modern culinary delights, every recipe is crafted with care to satisfy both the heart and the palate. With a cozy yet stylish ambiance, attentive service, and food that leaves a lasting impression, Velvet Platter is the perfect place for family meals, casual hangouts, and special celebrations alike.
+      ✨ Velvet Platter – Where Taste Meets Elegance.
+    </p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section--padded section--alt">
+    <h2 class="section__title">Contact Us</h2>
+    <div class="contact__grid">
+      <div>
+        <h3>Address</h3>
+        <p>Road No. 12, Banjara Hills,<br/>Hyderabad, Telangana, India</p>
+      </div>
+      <div>
+        <h3>Call / WhatsApp</h3>
+        <p>+91 123456789</p>
+      </div>
+      <div>
+        <h3>Email</h3>
+        <p>hello@VelvetPlatter.in</p>
+      </div>
+      <div>
+        <h3>instagram</h3>
+        <p> Velvet_Platter</p>
+      </div>
+      <div>
+        <h3>Hours</h3>
+        <p>Mon–Sun: 8:00 AM – 11:00 PM</p>
+      </div>
+      <!-- ORDER MESSAGE FORM -->
+<section id="orderMessage" class="section section--padded section--alt">
+  <h2 class="section__title">Place Your Order</h2>
+  <form id="orderMessageForm" class="order__form">
+    <input type="text" id="name" name="name" placeholder="Your Name" required>
+    <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+    <textarea id="order" name="order" rows="3" placeholder="Your Order Details (e.g. 2x Paneer Butter Masala, 1x Veg Biryani)" required></textarea>
+    <textarea id="address" name="address" rows="3" placeholder="Delivery Address" required></textarea>
+    <textarea id="message" name="message" rows="3" placeholder="Additional Message / Instructions (optional)"></textarea>
+    
+    <h3>Payment Option</h3>
+    <label><input type="radio" name="payment" value="COD" required> Cash on Delivery</label><br>
+    <label><input type="radio" name="payment" value="Online" required> Online Payment</label>
+    
+    <button type="submit" class="btn btn--primary">Place Order</button>
+  </form>
+  <p id="formStatus"></p>
+</section>
+
+
+    </div>
+    
+
+  <footer class="footer">
+    © 2025 Velvet Platter • Crafted with ❤️
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
